@@ -35,4 +35,10 @@
     .habit-containers{
         flex-direction: column;
     }
+    .miles{
+        flex-direction: column;
+    }
+    .run-img>img {
+        margin-top: 31px;
+    }
 }
