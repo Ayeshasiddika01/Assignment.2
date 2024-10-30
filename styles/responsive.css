@@ -1,7 +1,8 @@
 @media screen and (max-width:576px) {
+    /* header section start here */
     .bg-color{
         width: 100%;
-        padding: 20px;
+        
     }
     .nav-container{
         display: none;
@@ -29,5 +30,9 @@
         position: absolute;
     bottom: 30%;
     left: 50%;
+    }
+    /* header section end here */
+    .habit-containers{
+        flex-direction: column;
     }
 }
