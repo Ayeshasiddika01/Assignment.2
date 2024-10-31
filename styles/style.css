@@ -185,7 +185,8 @@ nav {
 }
 
 .habit-title,
-.miles-title {
+.miles-title,
+.team-title {
 
     font-size: 3rem;
     font-weight: 900;
@@ -198,7 +199,8 @@ nav {
 
 .habit-description,
 .container-description,
-.miles-description {
+.miles-description,
+.team-description {
 
     font-size: 1rem;
     font-weight: 400;
@@ -232,5 +234,101 @@ nav {
 }
 
 .run-img>img {
+    width: 100%;
     border-radius: 18px;
+}
+
+/* teams styles here */
+.teams {
+    text-align: center;
+    margin-top: 88px;
+}
+
+.team-1>img {
+    width: 100%;
+    border-radius: 18px;
+    height: 272px;
+}
+
+.team-1 {
+    position: relative;
+}
+
+.team-name {
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.team-identity {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.teams-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.team-description {
+    margin-bottom: 58px;
+}
+
+/* footer style here */
+footer {
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 88px;
+}
+
+.footer-containers {
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 66px;
+}
+
+.logo-title {
+    font-size: 4.375rem;
+    font-weight: 800;
+}
+
+.logo-description {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.menus-title {
+
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+.menus-nav {
+
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.reserved {
+    max-width: 1440px;
+    margin: 0 auto;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding: 36px 0;
+    margin-top: 78px;
+
 }
