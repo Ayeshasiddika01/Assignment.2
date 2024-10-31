@@ -1,44 +1,70 @@
 @media screen and (max-width:576px) {
+
     /* header section start here */
-    .bg-color{
+    .bg-color {
         width: 100%;
-        
+
     }
-    .nav-container{
+
+    .nav-container {
         display: none;
     }
-    .nav-hamberger-menue{
+
+    .nav-hamberger-menue {
         display: block;
-        
+
     }
-    
-    .img-container{
-        
+
+    .img-container {
+
         display: flex;
         flex-direction: column;
     }
-    .banner{
+
+    .banner {
         flex-direction: column;
         max-width: 100%;
     }
-    .token-1{
-    position: absolute;
-    top: 70%;
-    right: 60%;
-    }
-    .token-2{
+
+    .token-1 {
         position: absolute;
-    bottom: 30%;
-    left: 50%;
+        top: 70%;
+        right: 60%;
     }
+
+    .token-2 {
+        position: absolute;
+        bottom: 30%;
+        left: 50%;
+    }
+
     /* header section end here */
-    .habit-containers{
+    .habit-containers {
         flex-direction: column;
     }
-    .miles{
+
+    .miles {
         flex-direction: column;
     }
+
     .run-img>img {
         margin-top: 31px;
+    }
+
+    /* teams section here */
+    .teams-images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* footer section here */
+    .footer-containers {
+        flex-direction: column;
+        padding-left: 10%;
+
+    }
+
+    .reserved {
+        max-width: 80%;
+        text-align: left;
     }
 }
