@@ -186,7 +186,7 @@ nav {
 
 .habit-title,
 .miles-title,
-.team-title {
+.team-title, .bmi-title {
 
     font-size: 3rem;
     font-weight: 900;
@@ -200,7 +200,7 @@ nav {
 .habit-description,
 .container-description,
 .miles-description,
-.team-description {
+.team-description, .bmi-description {
 
     font-size: 1rem;
     font-weight: 400;
@@ -231,12 +231,94 @@ nav {
     align-items: center;
     padding: 30px 32px;
     margin-top: 100px;
+    margin-bottom: 88px;
 }
 
 .run-img>img {
     width: 100%;
     border-radius: 18px;
 }
+
+/* BMI Calculator styles here */
+.bmi-details{
+    text-align: center;
+}
+.bmi-container {
+    background-color: rgb(34, 34, 34);
+    padding: 52px 0;
+    margin-top: 88px;
+}
+
+/* table section */
+.bmi-table-form {
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.chart table {
+    border-collapse: collapse;
+}
+
+
+.chart-table,
+.form-title {
+
+    font-size: 1.8rem;
+    font-weight: 900;
+
+}
+
+thead {
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+td,
+th {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 13px 18px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* form section */
+.form-description {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    column-gap: 50px;
+    row-gap: 12px;
+    margin: 34px 0;
+}
+
+
+
+input{
+    padding: 13px 20px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    
+}
+form :nth-child(5){
+    grid-column: span 2;
+}
+
+
+
+
+
+
+
+
 
 /* teams styles here */
 .teams {
